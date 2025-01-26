@@ -1,0 +1,41 @@
+# 1 >= threshold >= 0
+# determines how sensitive the comparison between audio and template is, essentially how close the bark has to be.
+# suggested to be between 0.6 and 0.8, any higher or lower may cause false positives or negatives.
+threshold: 0.7
+
+# checkNum >=1
+# number of template files that must be matched for a bark to be detected. must be at maximum the number of files in the templates directory, and minimum 1.
+# suggested to be close to the number of template files to avoid false positives, but depends on the number/types of templates being used.
+check_num: 5
+
+# Default hotkey to be pressed to activate the timer.
+hotkey: 'Key.pause'
+
+# Mode Settings
+shock_on_bark: false
+shock_on_speak: false
+
+# 1 >= threshold >= 0
+# Determines how sensitive the microphone is.
+sound_threshold: 0.5
+
+# Shock Settings
+# The amount of seconds after the hotkey is pressed that a shock will occur without a bark.
+shock_countdown: 3.0
+operation: "Shock"
+# Intensity of the given command 1-100
+intensity: 10
+# Duration of the given command in seconds
+duration: 1
+# Model being used
+model: "Both"
+
+# Below are settings for if you are using Openshock.
+OpenShockToken: "X"
+ShockerIds: ["X"]
+
+# Below are settings for if you are using PiShock
+Username: "X"
+Apikey: "X"
+Code: "X"
+

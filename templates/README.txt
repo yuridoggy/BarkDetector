@@ -1,0 +1,1 @@
+This directory contains template .wav files for barks to be recognized.
