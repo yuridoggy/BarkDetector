@@ -8,7 +8,7 @@ The program is currently set by default to use the PAUSE BREAK key as a hotkey, 
 
 ## Setting up the Software
 
-Inside this project is both the compiled and uncompiled version of this project. This project was compiled with py2exe.
+Inside this project is the uncompiled version of this project, with main.py. The compiled version is available for download [here](https://www.patreon.com/posts/bark-detector-v1-120159942).
 
 Once you have the project downloaded/compiled, a window will pop up that looks like this.
 
